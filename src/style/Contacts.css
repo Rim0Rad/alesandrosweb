@@ -1,0 +1,100 @@
+#contactsPage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactsContainer {
+    width: 80%;
+    height: 80%;
+
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+#socialmediaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialmediaContainer > img {
+    width: 100px;
+    height: 100px;
+    margin: 10px
+}
+#socialmediaContainer > img:hover {
+    width: 110px;
+    height: 110px;
+    margin: 5px
+}
+
+#sendMessageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+}
+
+#sendMessageContainer > p {
+    font-size: 20px;
+    text-shadow: 0 0 10px orangered;
+}
+
+#userDetailsContainer {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+#sendMessageContainer > input, #messageTextBox {
+    width: 40%;
+    margin: 20px 0;
+    padding: 10px;
+
+    font-size: 16px;
+    
+    border-radius: 5px;
+}
+#messageTextBox{
+    width: 40%;
+    height: 200px;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+    text-align: center;
+    text-justify:auto;
+    display: flex;
+    justify-content: top;
+}
+
+#sendBt {
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+
+    border-radius: 5px;
+
+    border: none;
+
+}
+
+#sendBt:hover {
+
+    box-shadow: 0 0 10px orangered;
+}

@@ -1,0 +1,74 @@
+* {
+  /* border: 1px solid white; */
+}
+
+:root {
+  --navbar-height: 100px;
+
+  --h1-font-size: 50px;
+  --h2-font-size: 40px;
+  --h3-font-size: 20px;
+  --h4-font-size: 16px;
+
+  --nav-color: rgba(0, 0, 0, 0.671);
+  --accent-color: orangered;
+}
+
+
+p, h1, h2, h3, h4 {
+  color: white;
+}
+
+
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+
+h1 {
+  transition: 1s;
+  position: absolute;
+  z-index: 10;
+  color: white;
+  text-shadow: 0 0 20px orangered;
+}
+h2 {
+  margin-top: 150px;
+  font-size: var(--h2-font-size);
+}
+h3 {
+  transition: 1s;
+  font-size: var(--h3-font-size);
+  text-shadow: 0 0 5px orangered;
+}
+
+
+#homeNav > h1 {
+  margin: 40vh 100px;
+  font-size: var(--h1-font-size);
+}
+
+#Nav > h1 {
+  top: 0;
+  left: 100px;
+  font-size: 30px;
+}
+
+.verticalSeparator{
+  height: 10px;
+  width: 0;
+}
+.link {
+  position:relative;
+  color: orangered;
+  margin: 6px
+}
+.link:hover {
+  top: -4px;
+  font-size: 20px;
+  margin: 0px
+  
+
+}

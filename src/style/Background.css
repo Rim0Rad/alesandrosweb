@@ -1,0 +1,58 @@
+.background {
+    width: 100vw;
+
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+  
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    /* background: linear-gradient(rgb(255, 255, 255), rgb(253, 244, 244)); */
+
+  }
+  .backgroundImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+  }
+  .backgroundImgTop {
+    position: absolute;
+    width: 100%;
+
+  }
+  
+
+  .backgroundTransition {
+    transition: 1s;
+    animation: bgTransition 1s forwards;
+  }
+
+  @keyframes bgTransition {
+    0% {
+        top: 100vh;
+    }
+    100% {
+        top : 0;
+    }
+  }
+
+  .moveOutTransition {
+    animation: moveTop 1s forwards;
+  }
+
+  @keyframes moveTop {
+    0% {
+        top: 0;
+    }
+    100% {
+        top : -100vh;
+    }
+  }

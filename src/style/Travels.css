@@ -1,0 +1,35 @@
+
+#travelsPage {
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(43, 43, 43);
+}
+
+.travelCard {
+    width: 80%;
+    height: 300px;
+
+    margin: 10px;
+
+    display: flex;
+    align-items: center;
+
+    background-position: center;
+    background-color: black;
+
+    border-bottom: 10px solid rgba(255, 255, 255, 0.781);
+}
+
+.travelCard:hover {
+    width: 82%;
+}
+
+.travelCard > p {
+    font-size: var(--h1-font-size);
+    margin-left: 50px;
+}

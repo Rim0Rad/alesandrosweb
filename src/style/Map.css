@@ -1,0 +1,49 @@
+#mapPage {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgb(112, 182, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ #svggroup {
+
+    position: absolute;
+    top: 55%;
+
+    scale: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+path {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    stroke-linejoin: round;
+    cursor: pointer;
+    stroke-width: 1;
+    fill: whitesmoke;
+    
+
+}
+
+.visitedCountry {
+    fill: orangered;
+    stroke: black;
+    stroke-width: 1px;
+}
+.visitedCountry:hover {
+    fill: rgb(255, 123, 75);
+    stroke: rgba(0, 0, 0, 0.74)
+}
+
+desc {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: black
+}
+defs {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

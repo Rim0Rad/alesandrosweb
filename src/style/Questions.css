@@ -1,0 +1,108 @@
+#questionsPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#questionsContent {
+    width: 80%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#questionsBox {
+    width: 80%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+
+
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+
+/* Question Card */
+#questionCard {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 5px;
+    border-radius: 5px;
+}
+#questionCard:hover {
+    border: 1px solid white
+}
+#question {
+    width: 100%;
+    min-height: 50px;
+
+    display: flex;
+    align-items: center;
+    
+    border-radius: 5px;
+    background-color: rgb(122, 117, 117);
+}
+#answer {
+    min-height: 50px;
+    width: 90%;
+
+    background-color: rgba(175, 175, 175, 0.637);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#question > p, #answer > p {
+    margin-left: 10px;
+}
+
+/* Post Questions */
+#postQuestionBox{
+    width: 80%;
+    height: fit-content;
+
+    margin: 10px 0;
+
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+#postQuestionForm {
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#postQuestionForm > p {
+    font-size: 20px;
+    text-shadow: 0 0 10px orangered;
+}
+
+#postQuestionForm > textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,168 @@
+#vanPage {
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#diagramContainer {
+    position: absolute;
+    top: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-self: center;
+    
+    /* Fixed for the button positions */
+    height: 700px;
+    width: 1000px;
+
+    background-color: rgba(0, 0, 0, 0.514);
+    backdrop-filter: blur(5px);
+    
+
+}
+
+#vanImage {
+    position:absolute;
+    object-fit: cover;
+
+}
+
+.vanButtonContainer{
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+}
+
+.vanButtonOuter {
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 100%;
+
+}
+
+.vanButtonInner {
+   
+    height: 40px;
+    width: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 100%;
+
+}
+
+.vanButtonInner > p {
+    font-size: 10px;
+}
+
+
+.vanButtonOuter:hover {
+    height: 60px;
+    width: 60px;
+}
+.vanButtonOuter:hover > .vanButtonInner {
+    height: 50px;
+    width: 50px;
+}
+.vanButtonOuter:hover > .vanButtonInner > p {
+   font-size: 20px;
+}
+
+/* Button positions */
+.engineButton{
+    top: 43%;
+    left: 24%;
+}
+.transmmisionButton{
+    top: 54%;
+    left: 25%;
+}
+.suspensionButton {
+    top: 60%;
+    left: 53%;
+}
+.measurmentsButton {
+    top: 25%;
+    left: 80%;
+}
+.breaksButton {
+    top: 57%;
+    left: 77%;
+}
+.tiresButton {
+    top: 75%;
+    left: 46%;
+}
+.fuelButton {
+    top: 55%;
+    left: 69%;
+}
+.speedButton {
+    top: 32%;
+    left: 40%;
+}
+.modificationButton {
+    top: 25%;
+    left: 61%;
+}
+
+.infoContainer {
+    position:unset;
+
+    z-index: 10;
+    
+    width: fit-content;
+    height: fit-content;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items:normal;
+
+    justify-self: baseline;
+    align-self: baseline;
+
+    padding: 10px 50px;
+
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.infoBox {
+    /* width: fit-content; */
+
+    display: flex;
+    align-items: baseline;
+    padding: 10px;
+
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.151);
+}
+.infoBox:hover {
+    background-color: rgba(255, 255, 255, 0.205);
+
+}
+
+.infoBox > p{
+    margin: 0 50px;
+    white-space: nowrap;
+}
