@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22baa8b4.css",
+    "main.js": "/static/js/main.7a9b6520.js",
+    "static/js/787.d4e78667.chunk.js": "/static/js/787.d4e78667.chunk.js",
+    "static/media/header_bg.png": "/static/media/header_bg.98730a2dea4ba4a3da64.png",
+    "static/media/uaz.png": "/static/media/uaz.73b8bc5ce7ca2001b3c1.png",
+    "static/media/travel-card-tunisia.jpg": "/static/media/travel-card-tunisia.c700a80fa5314848472a.jpg",
+    "static/media/diary_bg_croped.jpg": "/static/media/diary_bg_croped.7c50255a4e2cdb0180bf.jpg",
+    "static/media/tunisia1.jpg": "/static/media/tunisia1.41c78b7dc1f39123bef7.jpg",
+    "static/media/adventure-tunisia-main.jpg": "/static/media/adventure-tunisia-main.7ae6d632dc9fff7e33e4.jpg",
+    "static/media/van_bg.jpg": "/static/media/van_bg.9dcf0f4a0b8608ffbeb9.jpg",
+    "static/media/tunisia2.jpg": "/static/media/tunisia2.4e16158d314f51855ec4.jpg",
+    "static/media/instagram.svg": "/static/media/instagram.22bda4c250235f5d99c5c75e2537147e.svg",
+    "static/media/tiktok.svg": "/static/media/tiktok.ca1ab960216a8d8f75ddeea57e751444.svg",
+    "index.html": "/index.html",
+    "static/media/facebook.svg": "/static/media/facebook.1a0279147a88027877297fd59da8d4f8.svg",
+    "main.22baa8b4.css.map": "/static/css/main.22baa8b4.css.map",
+    "main.7a9b6520.js.map": "/static/js/main.7a9b6520.js.map",
+    "787.d4e78667.chunk.js.map": "/static/js/787.d4e78667.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22baa8b4.css",
+    "static/js/main.7a9b6520.js"
+  ]
+}
